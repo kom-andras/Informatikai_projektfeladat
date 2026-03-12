@@ -21,16 +21,22 @@ A projekt egy olyan rendszer megvalósítása, amely:
 - egy webes dashboardon jeleníti meg az adatokat
 A rendszer demonstrálja az edge computing, IoT kommunikáció és adatvizualizáció alapelveit.
 
+[⬆ Vissza a tetejére](#tartalomjegyzék)
+
 ## Raspberry pi telepítése
 
+[⬆ Vissza a tetejére](#tartalomjegyzék)
 
 ## Node-ok beállítása
 
+[⬆ Vissza a tetejére](#tartalomjegyzék)
 
 ## Node-RED
 
+[⬆ Vissza a tetejére](#tartalomjegyzék)
 
 ## Grafana
 
+[⬆ Vissza a tetejére](#tartalomjegyzék)
 
 ## Időbeosztás
