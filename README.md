@@ -30,7 +30,7 @@ Felhasznált hardware: Raspberry Pi 4B 4Gb
 A telepítéshez a Raspberry Pi Imagert használtam és egy Raspberry pi OS-t telepítettem, beállítottam a wifi jelszót is és a Pi Connectet is, ami igazából a Raspberry beépített távoli asztal alkalmazása, így bárhonnan hozzá lehet férni a pi-hoz. Ez nem feltétlenül szükséges, elég az SSH-t beállítani.
 
 Először frissíteni kell mindent:
->sudo apt update
+>sudo apt update</br>
 >sudo apt upgrade
 
 Majd telepítjük az IoT Stack-et:
