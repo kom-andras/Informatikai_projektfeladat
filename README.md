@@ -7,6 +7,7 @@
 - [Node-RED](#node-red)
 - [Grafana](#grafana)
 - [Időbeosztás](#időbeosztás)
+- [Források](#források)
 
 ## A projektről
 Egy demonstrációs **ipari IoT gateway rendszer**, amely több szenzor node-ról gyűjt adatokat, majd azokat egy edge gateway-n keresztül feldolgozza, eltárolja és vizualizálja.
@@ -33,9 +34,20 @@ Először frissíteni kell mindent:
 >sudo apt update</br>
 >sudo apt upgrade
 
-Majd telepítjük az IoT Stack-et:
->curl -fsSL https://raw.githubusercontent.com/SensorsIot/IOTstack/master/install.sh | bash
+Majd telepítjük az IoT Stack-et és újraindítjuk a pi-t:
+>curl -fsSL https://raw.githubusercontent.com/SensorsIot/IOTstack/master/install.sh | bash</br>
 >sudo shutdown -r now
+
+Telepítés után lépjünk bele a mappába és indítsuk el a menu scriptet:
+>cd IOTstack/</br>
+>./menu.sh
+
+A menüben a következő komponenseket kell kiválasztanunk:
+- Grafana
+- InfluxDB
+- Mosquitto
+- Node-RED
+- Portainer-CE
 
 
 [⬆ Vissza a tetejére](#tartalomjegyzék)
@@ -80,5 +92,9 @@ Majd telepítjük az IoT Stack-et:
 9. május 7
     - Bemutatás
 
+[⬆ Vissza a tetejére](#tartalomjegyzék)
+
+## Források
+<a href="https://learnembeddedsystems.co.uk/easy-raspberry-pi-iot-server">Raspberry Pi IoT Server</a>
 
 [⬆ Vissza a tetejére](#tartalomjegyzék)
