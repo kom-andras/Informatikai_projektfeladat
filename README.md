@@ -107,5 +107,6 @@ Egy másik node-ra egy fény ellenállást kötöttem. ...
 
 ## Források
 <a href="https://learnembeddedsystems.co.uk/easy-raspberry-pi-iot-server">Raspberry Pi IoT Server</a>
+<a href="https://www.youtube.com/playlist?list=PLKYvTRORAnx6a9tETvF95o35mykuysuOw">Node_RED tutorials</a>
 
 [⬆ Vissza a tetejére](#tartalomjegyzék)
