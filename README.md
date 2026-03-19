@@ -49,10 +49,21 @@ A menüben a következő komponenseket kell kiválasztanunk:
 - Node-RED
 - Portainer-CE
 
+A következő lépésben létre kell hoznunk az adatbázist:
+>docker exec -it influxdb influx</br>
+>CREATE DATABASE sensor_data</br>
+>quit
+
+Ha mindent jól csináltunk, akkor ha beírjuk egy böngészőbe a pi ipcímét és utána a :9000-es portot, megjelenik a portainer ami a konténereinket kezeli.
+
+Az 1880-as porton elérjük a Node-RED-et és a 3000-es porton a Grafana-t.
 
 [⬆ Vissza a tetejére](#tartalomjegyzék)
 
 ## Node-ok beállítása
+
+Én Node-oknak ESP32-es mikrovezérlőket hasznátam. Először a teszt kedvéért egy potmétert kötöttem hozzá, a 3-as pinre és feltöltöttem a kódot (mqtt_node_test.ino).
+Egy másik node-ra egy fény ellenállást kötöttem. ...
 
 [⬆ Vissza a tetejére](#tartalomjegyzék)
 
