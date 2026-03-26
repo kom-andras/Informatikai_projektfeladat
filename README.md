@@ -106,7 +106,8 @@ Egy másik node-ra egy fény ellenállást kötöttem. ...
 [⬆ Vissza a tetejére](#tartalomjegyzék)
 
 ## Források
-<a href="https://learnembeddedsystems.co.uk/easy-raspberry-pi-iot-server">Raspberry Pi IoT Server</a>
-<a href="https://www.youtube.com/playlist?list=PLKYvTRORAnx6a9tETvF95o35mykuysuOw">Node_RED tutorials</a>
+<a href="https://learnembeddedsystems.co.uk/easy-raspberry-pi-iot-server">Raspberry Pi IoT Server</a></br>
+<a href="https://www.youtube.com/playlist?list=PLKYvTRORAnx6a9tETvF95o35mykuysuOw">Node_RED tutorials</a></br>
+<a href="https://learnembeddedsystems.co.uk/node-red-telegram-iot-bot-integration">Node-RED Telegram IoT Bot</a>
 
 [⬆ Vissza a tetejére](#tartalomjegyzék)
