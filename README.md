@@ -6,6 +6,7 @@
 - [Node-ok beállítása](#node-ok-beállítása)
 - [Node-RED](#node-red)
 - [Grafana](#grafana)
+- [Telegram](#telegram)
 - [Időbeosztás](#időbeosztás)
 - [Források](#források)
 
@@ -112,6 +113,29 @@ A Grafana Dashboard-om a következőképpen néz ki:
 <img src="kepek/Grafana.png">
 
 Bal fent a LED-ek állapota látható, mellette a relék állapota. Allattuk a fényellenállás és a potméter adatai, grafikonon az idő függvényében illetve "Gauge"-en.
+
+[⬆ Vissza a tetejére](#tartalomjegyzék)
+
+## Telegram
+
+<table>
+    <tr>
+        <td>
+            <img src="kepek/telegram1.jpg">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="kepek/telegram2.jpg">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="kepek/telegram3.jpg">
+        </td>
+    </tr>
+</table>
+
 
 [⬆ Vissza a tetejére](#tartalomjegyzék)
 
