@@ -90,6 +90,10 @@ A harmadik flow a Telegramos adat lekérdezésért felel, ha a Telegramos botnak
 
 ## Grafana
 
+A Grafana Dashboard-om a következőképpen néz ki:
+<img src="Grafana.png">
+Bal fent a LED-ek állapota látható, mellette a relék állapota. Allattuk a fényellenállás és a potméter adatai, grafikonon az idő függvényében illetve "Gauge"-en.
+
 [⬆ Vissza a tetejére](#tartalomjegyzék)
 
 ## Időbeosztás
