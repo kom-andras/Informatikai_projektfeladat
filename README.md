@@ -76,7 +76,14 @@ Adatok amit kapnak: LED-ek bekapcsolása(0-1), Relék bekapcsolása(0-1)
 Ahogy már említettem a 1880-as porton elérjük a Node-RED-et. Innen a böngészőből elérünk mindent.
 Három darab flow-m van, az elsőben beérkeznek az adatok, feldolgozásra kerülnek és bekerülnek az adatbázisba.
 Illetve itt detektálom, hogy ha 30 másodpercig nem küldenek adatot, egy üzenetet küld Telegramon keresztül.
+
+<img src="Flow1.png">
+
 A második flowban manuálisan tudjuk kapcsolgatni a fentebb említett kimeneteket, illetve van egy kis automatizáció, ha a fényellenállás értéke 20 vagy az alá esik, akkor bekapcsolja az 1-es relét, ha 20 fölé emelkedik akkor kikapcsolja azt. Ha a potméter értéke 95 felé emelkedik bekapcsol a 2-es relé ha 95 alá csökken kikapcsol.
+
+<img src="Flow2.png">
+<img src="Flow22.png">
+
 A harmadik flow a Telegramos adat lekérdezésért felel, ha a Telegramos botnak
 >/data
 üzenetet küldünk, akkor feldob 4 lehetőséget aminek az értékét le tudjuk kérdezni:
@@ -86,12 +93,16 @@ A harmadik flow a Telegramos adat lekérdezésért felel, ha a Telegramos botnak
 - Relé 1 állapota (on-off)
 - Relé 2 állapota (on-off)
 
+<img src="Flow3.png">
+
 [⬆ Vissza a tetejére](#tartalomjegyzék)
 
 ## Grafana
 
 A Grafana Dashboard-om a következőképpen néz ki:
+
 <img src="Grafana.png">
+
 Bal fent a LED-ek állapota látható, mellette a relék állapota. Allattuk a fényellenállás és a potméter adatai, grafikonon az idő függvényében illetve "Gauge"-en.
 
 [⬆ Vissza a tetejére](#tartalomjegyzék)
