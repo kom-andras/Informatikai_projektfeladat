@@ -123,15 +123,22 @@ Bal fent a LED-ek állapota látható, mellette a relék állapota. Allattuk a f
         <td>
             <img src="kepek/telegram1.jpg">
         </td>
-    </tr>
-    <tr>
         <td>
             <img src="kepek/telegram2.jpg">
+        </td>
+        <td>
+            <img src="kepek/telegram3.jpg">
         </td>
     </tr>
     <tr>
         <td>
-            <img src="kepek/telegram3.jpg">
+            <img src="kepek/telegram4.jpg">
+        </td>
+        <td>
+            <img src="kepek/telegram5.jpg">
+        </td>
+        <td>
+            <img src="kepek/telegram6.jpg">
         </td>
     </tr>
 </table>
