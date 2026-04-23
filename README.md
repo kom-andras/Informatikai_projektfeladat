@@ -66,8 +66,16 @@ Az 1880-as porton elérjük a Node-RED-et és a 3000-es porton a Grafana-t.
 Egy másik node-ra egy fény ellenállást és egy dupla relé modult kötöttem. (mqtt_node_LDR.ino)
 Később azt is beállítottam, hogy az esp32 ledjeit is lehessen kapcsolgatni.
 A két ESP32 két külön topicra kapja az utasításokat és küldi az adatokat.
-Adatok amit küldenek: Fényellenállás(%), potméter(%), LED-ek állapota(0-1), Relék állapota(0-1)
-Adatok amit kapnak: LED-ek bekapcsolása(0-1), Relék bekapcsolása(0-1)
+
+**Adatok amit küldenek:**
+- Fényellenállás(%)
+- potméter(%)
+- LED-ek állapota(0-1)
+- Relék állapota(0-1)
+
+**Adatok amit kapnak:**
+- LED-ek bekapcsolása(0-1)
+- Relék bekapcsolása(0-1)
 
 [⬆ Vissza a tetejére](#tartalomjegyzék)
 
